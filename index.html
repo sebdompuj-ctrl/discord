@@ -101,21 +101,29 @@
 
         .webhook-section {
             background: linear-gradient(135deg, #ff6b6b, #feca57);
-            color: blue(#bb0f40);
+            color: blue(#303ad2);
             border-radius: 15px;
             padding: 20px;
             margin-bottom: 25px;
         }
 
-        .webhook-url {
-            background: rgba(255, 255, 255, 0.2);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: white;
+        .webhook-section h3 {
+            color: blue(#303ad2);
+            margin-bottom: 15px;
         }
 
-        .webhook-url::placeholder {
-            color: rgba(255, 255, 255, 0.7);
-        }
+.webhook-url {
+    background: rgba(255, 165, 0, 0.2);  /* fond orange transparent */
+    border: 1px solid rgba(255, 165, 0, 0.2);  /* bordure identique au fond */
+    color: black;  /* texte saisi en noir pour être lisible */
+    padding: 8px 12px;  /* optionnel : plus confortable */
+    border-radius: 6px; /* optionnel : coins arrondis */
+    font-size: 16px;    /* optionnel : texte plus lisible */
+}
+
+.webhook-url::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* placeholder noir semi-transparent */
+}
 
         .priority-section {
             background: linear-gradient(135deg, #764ba2, #667eea);
@@ -133,7 +141,7 @@
         .priority-select {
             background: rgba(255, 255, 255, 0.9);
             border: none;
-            color: #bb0f40;
+            color: #333;
             font-weight: bold;
             padding: 12px;
         }
