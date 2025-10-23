@@ -29,3 +29,13 @@ app.post("/repeat", (req, res) => {
 app.listen(PORT, () => {
   console.log(`✅ Bot en ligne sur le port ${PORT}`);
 });
+
+
+---
+
+## 💻 4️⃣ Lancer en local
+
+Dans ton terminal :
+```bash
+npm install
+npm start
