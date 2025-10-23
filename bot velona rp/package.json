@@ -11,3 +11,13 @@
     "express": "^4.19.2"
   }
 }
+
+
+---
+
+## 💻 4️⃣ Lancer en local
+
+Dans ton terminal :
+```bash
+npm install
+npm start
