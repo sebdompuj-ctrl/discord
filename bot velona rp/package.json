@@ -1,0 +1,13 @@
+{
+  "name": "mon-bot",
+  "version": "1.0.0",
+  "description": "Petit bot Node.js avec Express prêt pour GitHub et Render",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
